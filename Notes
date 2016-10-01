@@ -1,0 +1,15 @@
+Exercise Notes
+
+1.3  An HTTP request was processed and we were navigated to another page.  The button likely exists as HTML, while the actions regarding it are processed in the controller.
+1.5  I'm not sure how to word it technically, but we navigated manually rather than relying on the routing through the controller.
+
+2.1  The part of the controller that actually generates the page is a method called Contact().
+2.2  "Your contact page", a string for general display purposes.
+2.4  All files are simple names that correlate directly with the page they display, and they are contained in a folder that corresponds to the controller (Home -> HomeController).  Contact.cshtml displays the Contact page, Index.cshtml displays the Index page, and so on.
+2.5  The data is displayed in the heading 1 and heading 2 tags as shown below:
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+3.3  A nice big error page, since now corresponding view currently exists for Person.
+3.5  Now I see the page I'd expect, although it's pretty barren (by choice, for now).
+3.8  Now I see the basic data I added (Name, DOB, Address) on the page, alongside what was already there.
